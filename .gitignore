@@ -1,1 +1,3 @@
-public.html
+# .gitignore
+index.html
+.env
