@@ -13,7 +13,7 @@ app.use(express.static(path.join(__dirname)));
 
 // Handle a GET request to the root
 app.get('/', (req, res) => {
-  res.sendFile(path.join(__dirname, 'public.html'));
+  res.sendFile(path.join(__dirname, 'index.html'));
 });
 
 io.on('connection', (socket) => {
